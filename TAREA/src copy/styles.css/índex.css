@@ -1,0 +1,103 @@
+ /* Estilo para index.html */
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e; /* Fondo oscuro */
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    color: #ffc8d7; /* Color rosado claro */
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2c2c2c; /* Fondo oscuro para la barra de navegación */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #e0e0e0; /* Texto claro */
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+}
+
+nav ul li a:hover {
+    background-color: #444; /* Fondo más oscuro al pasar el mouse */
+    color: #ffc8d7; /* Color rosado claro al pasar el mouse */
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: #121212; /* Fondo oscuro */
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    color: #ffc8d7; /* Color rosado claro */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    font-size: 16px;
+    color: #e0e0e0; /* Texto claro */
+    line-height: 1.6;
+}
+
+/* Imágenes */
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2c2c2c; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    font-size: 14px;
+}
+
+/* Botón */
+button {
+    background-color: #cc96b5; /* Fondo rosado */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #a85d70; /* Fondo más oscuro al pasar el mouse */
+}
+
+button a {
+    text-decoration: none;
+    color: white; /* Texto blanco */
+}

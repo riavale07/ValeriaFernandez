@@ -1,0 +1,28 @@
+/*ESTILOS GLOBALES*/
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: 'Roboto', Arial, sans-serif; /* Fuente externa */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ffc8d7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #cc96b5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a85d70;
+}
