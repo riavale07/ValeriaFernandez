@@ -1,0 +1,32 @@
+ .guionado {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.amarillo{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 1px solid black;
+} */
+
+.verde {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: orange;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+}

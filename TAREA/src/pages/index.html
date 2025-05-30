@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,53 @@
     <meta name="author" content="Repostería Artesanal MIA">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#121212">
-    <link rel="stylesheet" href="../styles.css/global.css">
-    <link rel="stylesheet" href="../styles.css/índex.css">
+    <link rel="stylesheet" href="../styles/global.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  
     <title>Repostería Artesanal MIA</title>
+    <style>
+        
+        header {
+            text-align: center;
+            padding: 30px 0 10px 0;
+        }
+        header img {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        nav {
+            background-color: #f8b3bf;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        nav ul li a:hover {
+            background: #cc96b5;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>REPOSTERÍA ARTESANAL MIA</h1>
-        <img src="../assets/images/ChatGPT Image 24 abr 2025, 20_57_51.png" alt="Logo de la empresa" width="200px" height="200px">
+        <img src="../assets/images/ChatGPT Image 24 abr 2025, 20_57_51.png" alt="Logo de la empresa" width="200" height="200">
     </header>
 
     <nav>
@@ -42,12 +79,10 @@
             <img src="../assets/images/tortastich.jpg" alt="Torta personalizada">
             <img src="../assets/images/tortaselva.jpg" alt="Torta personalizada">
             <h3>Nueva tendencia en tortas</h3>
-
             <article>
                 <video src="../assets/videos/Download (3).mp4" controls width="500" height="500"></video>
                 <video src="../assets/videos/Download (2).mp4" controls width="500" height="500"></video>
             </article>
-
             <p>¡No te quedes sin la tuya!</p>
             <p>¡Contáctanos para más información!</p>
         </section>
@@ -69,7 +104,8 @@
             <img src="../assets/images/candy3.jpg" alt="Candy bar">
         </section>
 
-        <a href="./index.html">  <button>Volver al INICIO</button>
+        <a href="./index.html">
+            <button>Volver al INICIO</button>
         </a>
     </main>
 

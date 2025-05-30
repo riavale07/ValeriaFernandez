@@ -1,0 +1,4 @@
+/* Cambiar el color del texto dentro del campo de entrada */
+input[type="text"] {
+    color: blue; /* Cambia el color del texto a azul */
+}
